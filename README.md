@@ -1,5 +1,7 @@
 # VERA - Verification-Enabled Research Agent
 
+Local research agent with Docker sandbox tools, evidence logs, and test-time verification loops.
+
 A proof-of-concept “Verification-Enabled Research Agent” (VERA) that runs **locally**, with full root permissions in a Linux **Docker sandbox**, can browse the public internet, read/write mounted files, run Linux commands + Python, and uses a **test-time verification loop** to reduce hallucinations and enforce evidence-grounded outputs.
 
 When an LLM is given real I/O (files, network, shell) and real tools, it can exhibit **emergent problem-solving behaviors**. In one experiment, a small 30B coding-optimized model independently converged on a strict numerical error tolerance while searching atomic mass data, installed required libraries at runtime, and produced chemical structure diagrams - without any explicit human guidance.
@@ -371,3 +373,7 @@ This is a research prototype: review deny patterns and add policy/allowlists bef
 [3] Shunyu Yao et al. (2022). *ReAct: Synergizing Reasoning and Acting in Language Models.* arXiv:2210.03629. Paper page: `https://arxiv.org/abs/2210.03629`.
 
 [4] Charlie Snell et al. (2024). *Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters.* arXiv:2408.03314. Paper page: `https://arxiv.org/abs/2408.03314`
+
+---
+
+Maintained by [Damyan Deshev](https://github.com/damyan-deshev) - local-first software, deterministic data paths, retrieval, evaluation, and practical product systems.
