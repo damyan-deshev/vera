@@ -1,5 +1,9 @@
 # VERA - Verification-Enabled Research Agent
 
+<img src="docs/screenshots/dashboard-telemetry.png" width="900" alt="VERA dashboard showing live metrics, verifier score, last tool call, event log, notes, and ledgers">
+
+The dashboard is the main debugging surface: live metrics, last tool call, verifier score, event log, notes, and ledgers are visible from the same session view.
+
 Local research agent with Docker sandbox tools, evidence logs, and test-time verification loops.
 
 A proof-of-concept “Verification-Enabled Research Agent” (VERA) that runs **locally**, with full root permissions in a Linux **Docker sandbox**, can browse the public internet, read/write mounted files, run Linux commands + Python, and uses a **test-time verification loop** to reduce hallucinations and enforce evidence-grounded outputs.
